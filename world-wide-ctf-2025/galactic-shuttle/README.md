@@ -52,7 +52,7 @@ user = request.args.get('user')
 
 Going to index.html in templates/ we can see that the "Book Your Seat" button is connected to the /acquire function and the "Claim Your Boarding Pass" is connected to the /flag function.
 
-## Exploit
+## Solution
 
 ### Race Condition
 

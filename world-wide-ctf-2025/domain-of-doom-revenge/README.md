@@ -68,7 +68,7 @@ The "[a-z\d\- ]+" part of the regex allows dashes and spaces which lets us add e
 
 However, the "^([a-z]+.)?" part of the regex has a dot in it but it is mistakenly not escaped with a backslash. This means we can send something like "a; pwd .com" and run any command we want.
 
-## Exploit
+## Solution
 
 Our first instinct would be to send something like "a; printenv .com" but this doesn't work. If given an argument printenv will only display the enviornment variable with the name ".com". You also can't specify the flag variable because the name is in uppercase and the regex only allows lowercase.
 

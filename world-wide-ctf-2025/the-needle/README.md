@@ -34,7 +34,7 @@ INSERT INTO info (information) VALUES ('wwf{dummy_flag}');
 
 There is no validation that is being done on our input, so this is fully vulnerable to SQL injection. Trying inputs like "'" will result in an error appearing, and using common SQL injection payloads like "a' OR '1'='1" we can get the "Yes, We found it !!" message to appear.
 
-## Exploit
+## Solution
 
 Unlike most SQL injection vulnerabilities, we have no access to the result of the SQL query, only whether or not it returned any rows. This means we have to progressively tease out the flag from what we can infer from our SQL queries.
 
