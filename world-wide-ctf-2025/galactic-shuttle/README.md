@@ -2,7 +2,7 @@
 
 ## Challenge Details
 
-> Category: Beginner \
+> Category: Beginner\
 > I need to catch the next space shuttle but it seems like there are not many seats left! I need two tickets to be able to fly (for me and my buddy). Do you thing you can get me on the shuttle?
 
 In this challenge, we are given access to website (which we have to deploy to visit), and a zip file which contains the code for that webserver. There's also a dockerfile we can use to deploy that server locally for testing purposes.
